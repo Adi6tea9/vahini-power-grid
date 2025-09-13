@@ -29,7 +29,6 @@ export function Sidebar({ activeView, onViewChange }: SidebarProps) {
     { id: "line-status", label: "Line Status", icon: Activity },
     { id: "fault-detection", label: "Fault Detection", icon: AlertTriangle },
     { id: "maintenance", label: "Maintenance", icon: Calendar },
-    { id: "power-flow", label: "Power Flow", icon: Zap },
     { id: "grid-map", label: "Grid Map", icon: Map },
     { id: "analytics", label: "Analytics", icon: BarChart3 },
     { id: "settings", label: "Settings", icon: Settings },
